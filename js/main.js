@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
       $('#header').addClass('header-fixed');
-    //  $('#logo').css("width", 30px);
+      $('#logo').css("width", 30);
     } else {
       $('#logo').css("width", 60);
       $('.back-to-top').fadeOut('slow');
