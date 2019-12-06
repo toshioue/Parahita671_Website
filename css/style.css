@@ -94,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo {
   float: left;
+
 }
 
 
@@ -113,9 +114,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#header #logo img {
-  padding: 0;
+#logo img {
+  width: 80%;
+  height: auto;
   margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 768px) {
@@ -123,12 +126,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
   }
   #header #logo img {
-    max-height: 40px;
+    max-height: 20px;
+
+
+
   }
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  /*background: rgba(52, 59, 64, 0.9);*/
+  background: rgba(153, 0, 0);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -140,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/para-bg.jpg) top center;
   background-size: cover;
   position: relative;
 }
@@ -504,12 +511,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  background: url(../img/Manny.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
 
 #about .about-container .content {
   background: #fff;
+
 }
 
 #about .about-container .title {
@@ -558,7 +566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box .title {
-  margin-left: 80px;
+  margin-left: 10px;
   font-weight: 500;
   margin-bottom: 5px;
   font-size: 18px;

@@ -8,9 +8,9 @@ jQuery(document).ready(function ($) {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
       $('#header').addClass('header-fixed');
-      $('#logo').animate({width: 100});
+      $('#logo img').css({'width' : '30%' });
     } else {
-      $('#logo').animate({width: 50});
+      $('#logo img').css({'width' : '80%' });
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
     }
