@@ -10,6 +10,7 @@ jQuery(document).ready(function ($) {
       $('#header').addClass('header-fixed');
       $('#logo').animate({width: 100});
     } else {
+      $('#logo').animate({width: 50});
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
     }
