@@ -1,3 +1,11 @@
+function growShrinkLogo() {
+  var Logo = document.getElementById("logo")
+  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+    Logo.style.width = '30px';
+  } else {
+    Logo.style.width = '60px';
+  }
+}
 jQuery(document).ready(function ($) {
 
   // Header fixed and Back to top button
@@ -127,14 +135,6 @@ jQuery(document).ready(function ($) {
   });
 
   // custom code
-  function growShrinkLogo() {
-  var Logo = document.getElementById("logo")
-  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-    Logo.style.width = '30px';
-  } else {
-    Logo.style.width = '60px';
-  }
-}
 
 
 });
