@@ -8,9 +8,9 @@ jQuery(document).ready(function ($) {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
       $('#header').addClass('header-fixed');
-      Logo.style.width = '60px';
+      $('#logo').css("width", 100);
     } else {
-      Logo.style.width = '200px';
+      $('#logo').css("width", 50);
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
     }
@@ -133,13 +133,5 @@ jQuery(document).ready(function ($) {
   // custom code
 
 
-  function growShrinkLogo() {
-    var Logo = document.getElementById("logo")
-    if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-      Logo.style.width = '300px';
-    } else {
-      Logo.style.width = '500px';
-    }
-  }
 
 });
