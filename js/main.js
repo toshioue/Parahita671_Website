@@ -8,9 +8,9 @@ jQuery(document).ready(function ($) {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
       $('#header').addClass('header-fixed');
-      growShrinkLogo()
+      Logo.style.width = '60px';
     } else {
-      growShrinkLogo()
+      Logo.style.width = '200px';
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
     }
