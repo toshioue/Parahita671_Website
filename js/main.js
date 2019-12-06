@@ -5,6 +5,7 @@ jQuery(document).ready(function ($) {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
       $('#header').addClass('header-fixed');
+      growShrinkLogo()
     } else {
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
@@ -126,5 +127,14 @@ jQuery(document).ready(function ($) {
   });
 
   // custom code
+  function growShrinkLogo() {
+  var Logo = document.getElementById("logo")
+  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+    Logo.style.width = '30px';
+  } else {
+    Logo.style.width = '60px';
+  }
+}
+
 
 });
