@@ -590,7 +590,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .img-responsive {
   image-resolution: snap;
   background-size: contain;
-   height: 300px; width: 350px;
+   height: 320px; width: 390px;
 }
 
 #facts {
