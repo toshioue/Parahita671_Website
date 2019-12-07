@@ -650,7 +650,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid rgba(150, 0, 0, 0.2);
+  border: 6px outset rgba(150, 0, 0, 0.2);
   padding: 100px;
   text-align: center;
 
