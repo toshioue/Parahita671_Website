@@ -650,7 +650,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+
 .modal.and.carousel {
+
+  position: fixed;
+  float: left;
 
 }
 
@@ -761,7 +765,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #services #food1.col-lg-4:hover, #services #food2.col-lg-4:hover, #services #food3.col-lg-4:hover, #services #food4.col-lg-4:hover {
-  background-color: : rgba(153, 0, 0, 0.2);
+  background-color: : rgba(153, 0, 0, 0.6);
   border: 7px solid rgba(153, 0, 0);
 
 }
