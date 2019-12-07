@@ -613,7 +613,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 /* this CSS syntax has to do with the zoom effect for the bbq wings pics */
 .parent {
-  width: 400px;
+  width: 500px;
   height: 300px;
 }
 
@@ -624,6 +624,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-position: center;
   background-size: cover;
   transition: all .5s;
+  border: 2px groove red
 }
 
 
