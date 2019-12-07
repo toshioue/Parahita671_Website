@@ -589,8 +589,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .img-responsive {
   image-resolution: snap;
-  background-size: contain;
-   height: 320px; width: 390px;
+
+   height: 400px; width: 500px;
 }
 
 #facts {
@@ -611,6 +611,28 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
+
+.parent {
+  width: 400px;
+  height: 300px;
+}
+
+.child {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("../img/logo.png");
+  background-position: center;
+  background-size: cover;
+  transition: all .5s;
+}
+
+.parent:hover .child,
+.parent:focus .child {
+  transform: scale(1.2);
+}
+
+
 
 /* Services Section
 --------------------------------*/
