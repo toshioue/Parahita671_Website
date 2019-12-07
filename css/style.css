@@ -505,7 +505,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: #f7f7f7;
+  /*background: #fff;*/
   padding: 80px 0;
 }
 
@@ -516,7 +517,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .content {
-  background: #fff;
+  background: #f7f7f7;
 
 }
 
@@ -541,7 +542,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box {
-  background: #fff;
+  background: ##f7f7f7;
   background-size: cover;
   padding: 0 0 30px 0;
 }
@@ -586,7 +587,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: #f7f7f7;
+  /*background: #f7f7f7;*/
+  background: #fff;
   padding: 80px 0 60px 0;
 }
 
@@ -606,20 +608,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: #fff;
+  align-items: center;
+  align-content: center;
+  background: #f7f7f7;
   background-size: cover;
-  padding: 80px 0 60px 0;
+  /*padding: 80px 0 60px 0;*/
+
 }
 
-#services .box {
-  padding: 50px 20px;
+/*#services .box {
+  padding: 20px 20px;
   margin-bottom: 50px;
-  text-align: center;
-  border: 1px solid #e6e6e6;
-  height: 200px;
   position: relative;
-  background: #fafafa;
-}
+}*/
 
 #services .icon {
   position: absolute;
@@ -627,7 +628,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: calc(50% - 36px);
   transition: 0.2s;
   border-radius: 50%;
-  border: 6px solid #fff;
+  border: 6px solid rgba(150, 0, 0, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -635,13 +636,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #2dc997;
+  background: rgba(153, 0, 0);
 }
 
 #services .icon a {
   display: inline-block;
 }
 
+#services #sweet  {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/sweet_bbq.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid rgba(150, 0, 0, 0.2);
+  padding: 100px;
+  text-align: center;
+
+
+}
+
+
+#services #sweet:hover {
+  background: rgba(153, 0, 0, 0.2);
+  border: 2px solid rgba(153, 0, 0);
+}
 #services .icon i {
   color: #fff;
   font-size: 24px;
@@ -649,15 +669,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box:hover .icon {
   background: #fff;
-  border: 2px solid #2dc997;
+  border: 2px solid rgba(153, 0, 0);
 }
 
 #services .box:hover .icon i {
-  color: #2dc997;
+  color:  #000000 ;
 }
 
 #services .box:hover .icon a {
-  color: #2dc997;
+  color:  #2dc997 ;
 }
 
 #services .title {
@@ -665,6 +685,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #services .title a {
@@ -675,6 +696,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
 }
+
 
 /* Call To Action Section
 --------------------------------*/
@@ -725,7 +747,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #f7f7f7;
+  background: #fff;
   padding: 80px 0;
 }
 
@@ -750,7 +772,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #666666;
   border-radius: 4px;
   text-transform: uppercase;
-  background: #fff;
+  background: #f7f7f7;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
