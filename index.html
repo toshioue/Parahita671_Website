@@ -153,16 +153,57 @@
             <img  class="img-responsive" src="img/sweet.jpg">
           </div>-->
           <div class="parent" >
-    <div class="child" style="background-image: url(img/sweet.jpg)" ></div></div>
+            <div data-toggle="modal" href="#lightbox" class=" btn child" style="background-image: url(img/sweet.jpg)" ></div>
+
+
+          </div>
 
           <div class="col-sm ">
 
           </div>
 
-          <div class="parent">
-    <div class="child" style="background-image: url(img/honey.jpg);"></div>
-  </div>
+        <div class="parent">
+          <div class="btn child" style="background-image: url(img/honey.jpg);"></div>
+        </div>
 </div>
+
+<div class="jumbotron">
+
+  <div class="modal fade and carousel slide" id="lightbox">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <ol class="carousel-indicators">
+            <li data-target="#lightbox" data-slide-to="0" class="active"></li>
+            <li data-target="#lightbox" data-slide-to="1"></li>
+            <li data-target="#lightbox" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="http://placehold.it/900x500/777/" alt="First slide">
+            </div>
+            <div class="item">
+              <img src="http://placehold.it/900x500/666/" alt="Second slide">
+            </div>
+            <div class="item">
+              <img src="http://placehold.it/900x500/555/" alt="Third slide">
+              <div class="carousel-caption"><p>even with captions...</p></div>
+            </div>
+          </div><!-- /.carousel-inner -->
+          <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+</div><!-- /.container -->
+
+
 
           <!--<div class="col-lg-6-9 right-image">
               <img class="img-responsive" src="img/honey.jpg" >
@@ -434,7 +475,7 @@
     <!--==========================
       Team Section
     ============================-->
-    <section id="team">
+    <!--<section id="team">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Team</h3>
@@ -499,7 +540,7 @@
         </div>
 
       </div>
-    </section><!-- #team -->
+    </section>--><!-- #team -->
 
     <!--==========================
       Contact Section
