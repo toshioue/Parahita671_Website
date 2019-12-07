@@ -608,13 +608,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
+  margin: 10px;
   align-items: center;
   align-content: center;
   background: #f7f7f7;
   background-size: cover;
+
   /*padding: 80px 0 60px 0;*/
 
 }
+
+#services .section-title{
+  padding-top: 20px;
+
+}
+
 
 /*#services .box {
   padding: 20px 20px;
@@ -643,24 +651,68 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
 }
 
-#services #sweet  {
+#services #food1  {
   height: 100%;
   width: 100%;
-  background-image: url('../img/sweet_bbq.jpg');
+  background-image: url('../img/empa.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border: 6px outset rgba(150, 0, 0, 0.2);
-  padding: 100px;
+  padding: 150px;
   text-align: center;
 
+}
+
+#services #food2 {
+
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/red_rice.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px outset rgba(150, 0, 0, 0.2);
+  padding: 150px;
+  text-align: center;
+
+}
+
+#services #food3 {
+
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/sauce.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px outset rgba(150, 0, 0, 0.2);
+  padding: 150px;
+  text-align: center;
+
+}
+
+#services #food4 {
+
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/donuts.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px outset rgba(150, 0, 0, 0.2);
+  padding: 150px;
+  text-align: center;
 
 }
 
 
-#services #sweet:hover {
-  background: rgba(153, 0, 0, 0.2);
-  border: 2px solid rgba(153, 0, 0);
+
+
+#services #food1.col-lg-4:hover, #services #food2.col-lg-4:hover, #services #food3.col-lg-4:hover, #services #food4.col-lg-4:hover {
+  background-color: : rgba(153, 0, 0, 0.2);
+  border: 7px solid rgba(153, 0, 0);
+
 }
 #services .icon i {
   color: #fff;
@@ -668,7 +720,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box:hover .icon {
-  background: #fff;
+  /*background: #fff;*/
   border: 2px solid rgba(153, 0, 0);
 }
 
@@ -686,11 +738,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   text-transform: uppercase;
   text-align: center;
+  text-decoration-color: white;
 }
 
-#services .title a {
-  color: #111;
-}
 
 #services .description {
   font-size: 14px;
