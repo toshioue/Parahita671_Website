@@ -588,7 +588,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .img-responsive {
-  display:inline-block; height: 30%; width: 30%;
+  background-size: contain;
+   height: 100px; width: 150px;
 }
 
 #facts {
