@@ -227,8 +227,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: rgba(153, 0, 0);;
+  border: 2px solid #aaa9ad;
 }
 
 /*--------------------------------------------------------------
@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #2dc997;
+  background-color: #aaa9ad;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
