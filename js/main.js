@@ -102,7 +102,8 @@ jQuery(document).ready(function ($) {
           $('body').removeClass('mobile-nav-active');
           $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
           $('#mobile-body-overly').fadeOut();
-        }
+        }Previous
+
         return false;
       }
     }
@@ -131,6 +132,15 @@ jQuery(document).ready(function ($) {
   });
 
   // custom code
+  $('.carousel-control-prev').click(function(){
+    $("#carouselExampleIndicators").carousel("prev");
+
+  });
+
+  $('.carousel-control-next').click(function(){
+    $("#carouselExampleIndicators").carousel("next");
+
+  });
 
 
 
