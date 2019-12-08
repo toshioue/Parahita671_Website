@@ -649,16 +649,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
 }
 
-.modal-body {
-    position: relative;
-    overflow-y: auto;
-    max-height:  100%;
-    padding: 15px;
-}
+.modal-body img{
+  width: 100%;
+  height: auto;
 
-.modal-full {
-    min-width: 100%;
-    margin: 0;
 }
 
 
