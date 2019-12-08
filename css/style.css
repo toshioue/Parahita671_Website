@@ -595,7 +595,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #facts {
   /*background: #f7f7f7;*/
-  background: #fff;
+
+  /*background: #fff;*/
   padding: 60px 0 60px 0;
 }
 
@@ -768,8 +769,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services #food1.col-lg-4:hover, #services #food2.col-lg-4:hover, #services #food3.col-lg-4:hover, #services #food4.col-lg-4:hover {
   background-color: : rgba(153, 0, 0, 0.2);
   border: 7px solid rgba(153, 0, 0);
-
 }
+
+
+
 #services .icon i {
   color: #fff;
   font-size: 24px;
