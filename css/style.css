@@ -135,7 +135,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-fixed {
   /*background: rgba(52, 59, 64, 0.9);*/
-  background: rgba(153, 0, 0);
+  /*background: rgba(153, 0, 0);*/
+  background: #680f1c;
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -227,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: rgba(153, 0, 0);;
+  background: #680f1c;
   border: 2px solid #aaa9ad;
 }
 
@@ -558,11 +559,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid rgba(153, 0, 0);;
+  border: 2px solid #680f1c;
 }
 
 #about .about-container .icon-box .icon i {
-  color: rgba(153, 0, 0);;
+  color: #680f1c;
   font-size: 24px;
 }
 
@@ -1090,7 +1091,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: rgba(153, 0, 0);;
+  background: #680f1c;
   border: 0;
   padding: 10px 24px;
   color: #fff;
