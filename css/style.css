@@ -585,6 +585,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
+/* newly added on CSS to the original*/
+
+#about .slogan {
+  text-align: center;
+  color: #680f1c; 
+}
+
+
 /* Facts Section
 --------------------------------*/
 
