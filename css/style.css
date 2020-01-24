@@ -1152,3 +1152,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
+
+/* carousel styles*/
+#div.modal-body {
+  postion: relative;
+  /*height: 1000px;*/
+  /*position: center;*/
+  max-width: 1000px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-dialog{
+  vertical-align: middle;
+}
