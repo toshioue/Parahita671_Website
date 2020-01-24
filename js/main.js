@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
       $('#header').addClass('header-fixed');
-      $('#logo img').css({'width' : '30%' });
+      $('#logo img').css({'width' : '20%' });
     } else {
       $('#logo img').css({'width' : '80%' });
       $('.back-to-top').fadeOut('slow');
@@ -153,5 +153,17 @@ function displayText(t){
 }
 function removeText(t){
   t.querySelector('.product').style.visibility = "hidden";
+
+}
+
+
+function changePics(obj){
+
+
+  document.getElementById('nameOfProduct').innerHTML = obj.querySelector('.product').innerHTML;
+  document.getElementById('pic1').src = "img/" + obj.id + "1.jpg"
+  document.getElementById('pic2').src = "img/" + obj.id + "2.jpg"
+  document.getElementById('pic3').src = "img/" + obj.id + "3.jpg"
+  document.getElementById('pic4').src = "img/" + obj.id + "4.jpg"
 
 }
