@@ -605,9 +605,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #facts {
-  /*background: #f7f7f7;*/
+  background: #f7f7f7;
 
-  /*background: #fff;*/
   padding: 60px 0 60px 0;
 }
 
@@ -661,6 +660,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
 }
 
+
 .modal-body img{
   width: 100%;
   height: auto;
@@ -679,7 +679,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 10px;
   align-items: center;
   align-content: center;
-  background: #f7f7f7;
+  background: grey;
   background-size: cover;
 
   /*padding: 80px 0 60px 0;*/
@@ -718,6 +718,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .icon a {
   display: inline-block;
 }
+
+/*this is for centering text over product images*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*this makes <a> tags colored white*/
+#services a, #facts a {
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
 
 #services #food1  {
   height: 100%;
@@ -790,7 +806,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box:hover .icon {
-  /*background: #fff;*/
+
   border: 2px solid rgba(153, 0, 0);
 }
 
