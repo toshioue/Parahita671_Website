@@ -154,9 +154,10 @@
         <!--  <div class="col-lg-6-3 left-image" >
             <img  class="img-responsive" src="img/sweet.jpg">
           </div>-->
+
           <div class="parent" >
-              <div data-toggle="modal" data-target="#exampleModalCenter" class=" btn child" style="background-image: url(img/sweet.jpg)" >
-                  <a href="#"  class="centered">Sweet Chilli BBQ Wings</a>
+              <div onmouseover="displayText(this)" onmouseout="removeText(this)" data-toggle="modal" data-target="#exampleModalCenter" class=" btn child" style="background-image: url(img/sweet.jpg)" >
+                  <span id="productName" class="product" style="visibility:hidden;">Sweet Chilli BBQ Wings<span>
               </div>
           </div>
 
@@ -165,8 +166,8 @@
           </div>
 
          <div class="parent">
-            <div class="btn child" style="background-image: url(img/honey.jpg);">
-                <a href="#"  class="centered">Honey Fina'denne' BBQ Wings</a>
+            <div onmouseover="displayText(this)" onmouseout="removeText(this)" class="btn child" style="background-image: url(img/honey.jpg);">
+                <span id="productName" class="product" style="visibility:hidden;">Finna'denne' Honey BBQ Wings<span>
             </div>
          </div>
        </div>
@@ -259,8 +260,8 @@
         <div class=" row justify-content-center">
 
           <div class="parent" >
-              <div  class="btn child" style="background-image: url(img/donuts_2.jpg)" >
-              <a href="#"  class="centered">Yam Donuts</a>
+              <div onmouseover="displayText(this)" onmouseout="removeText(this)"  class="btn child" style="background-image: url(img/donuts_2.jpg)" >
+              <span id="productName" class="product" style="visibility:hidden;">Yam Donuts<span>
               </div>
           </div>
 
@@ -269,8 +270,11 @@
           </div>
 
          <div class="parent">
-            <div class="btn child" style="background-image: url(img/red_rice.png); background-color: white"></div>
-            <a href="#"  class="centered">Red Rice</a>
+            <div onmouseover="displayText(this)" onmouseout="removeText(this)" class="btn child" style="background-image: url(img/red_rice.png); background-color: white">
+              <span id="productName" class="product" style="visibility:hidden;">Red Rice<span>
+
+            </div>
+
          </div>
        </div>
 

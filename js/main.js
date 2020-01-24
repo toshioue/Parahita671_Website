@@ -145,3 +145,13 @@ jQuery(document).ready(function ($) {
 
 
 });
+
+
+
+function displayText(t){
+  t.querySelector('.product').style.visibility = "visible";
+}
+function removeText(t){
+  t.querySelector('.product').style.visibility = "hidden";
+
+}

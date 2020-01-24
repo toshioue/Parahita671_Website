@@ -635,7 +635,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-position: center;
   background-size: cover;
   transition: all .5s;
-  border: 2px groove red
+  border: 2px groove red;
 }
 
 
@@ -719,20 +719,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
 }
 
-/*this is for centering text over product images*/
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* this adjusts order of image/text */
+.parent {
+  position: relative;
+  text-align: center;
 }
 
-/*this makes <a> tags colored white*/
-#services a, #facts a {
-  color: white;
+#services span, #facts span{
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
   font-size: xx-large;
-  font-weight: bold;
+  color: white;
+
 }
+
+
+/*#################################*/
 
 
 #services #food1  {
