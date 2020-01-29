@@ -575,9 +575,9 @@
 
           <div class="col-lg-5 col-md-8">
             <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="sendmessage"></div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="contactForm/mailer.php" method="GET" role="form" class="contactForm" onsubmit="goMail(this);">
                 <div class="form-group">
                 <select name="Purpose" style="background-color:#680f1C; color: white;">
                   <option value="Products">Product Inquiry</option>
@@ -605,6 +605,21 @@
               </form>
             </div>
           </div>
+
+          <script>
+        function goMail(formElement){
+          var xhr = new XMLHttpRequest();
+          xhr.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              document.getElementById("sendmessage").innerHTML = xhr.responseText;
+            }
+          };
+          xhr.open(formElement.method, formElement.action, true);
+          xhr.send(new FormData (formElement));
+          return false;
+        }
+
+          </script>
 
         </div>
 
