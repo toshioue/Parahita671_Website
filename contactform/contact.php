@@ -1,10 +1,10 @@
 <?php
-if(isset($_POST['submit'])){
-$purpose = $_POST['purpose'];
-$name = $_POST['name'];
-$email = $_POST['email'];
-$subj = $_POST['subject'];
-$message =  $_POST['message'];
+if(isset($_GET['submit'])){
+$purpose = $_GET['purpose'];
+$name = $_GET['name'];
+$email = $_GET['email'];
+$subj = $_GET['subject'];
+$message =  $_GET['message'];
 //$form = "From: $name \n Message: $message";
 $form = "<!DOCTYPE html>
 <html lang="">
