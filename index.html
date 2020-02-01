@@ -577,29 +577,25 @@
             <div class="form">
               <div id="sendmessage"></div>
               <div id="errormessage"></div>
-              <form action="contactform/mailer.php" method="POST" role="form" class="contactForm" onsubmit="goMail(this);">
+              <form action="contactform/contact.php" method="POST" role="form" class="contactForm" onsubmit="return goMail(this);">
                 <div class="form-group">
-                <select name="Purpose" style="background-color:#680f1C; color: white;">
+                <select name="purpose" style="background-color:#680f1C; color: white;">
                   <option value="Products">Product Inquiry</option>
-                  <option value="Business">Business related</option>
+                  <option value="Business">Business Related</option>
                   <option value="Feedback">Feedback</option>
                 </select>
               </div>
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" minlength="3" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required/>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" minlength="8" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required />
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
                 </div>
                 <div class="text-center"><button type="submit">Send Message</button></div>
               </form>
@@ -607,17 +603,7 @@
           </div>
 
           <script>
-        function goMail(formElement){
-          var xhr = new XMLHttpRequest();
-          xhr.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-              document.getElementById("sendmessage").innerHTML = xhr.responseText;
-            }
-          };
-          xhr.open(formElement.method, formElement.action, true);
-          xhr.send(new FormData (formElement));
-          return false;
-        }
+
 
           </script>
 
@@ -678,14 +664,10 @@
   <script src="lib/superfish/superfish.min.js"></script>
 
 
-  <!--Facebook fedd JS library-->
-  <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
-
 
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
+ <!--<script src="contactform/contactform.js"></script>
+ -->
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 

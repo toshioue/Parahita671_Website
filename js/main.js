@@ -156,14 +156,23 @@ function removeText(t){
 
 }
 
-
 function changePics(obj){
-
-
   document.getElementById('nameOfProduct').innerHTML = obj.querySelector('.product').innerHTML;
   document.getElementById('pic1').src = "img/" + obj.id + "1.jpg"
   document.getElementById('pic2').src = "img/" + obj.id + "2.jpg"
   document.getElementById('pic3').src = "img/" + obj.id + "3.jpg"
   document.getElementById('pic4').src = "img/" + obj.id + "4.jpg"
+}
 
+
+function goMail(formElement){
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("sendmessage").innerHTML = xhr.responseText;
+    }
+  };
+  xhr.open(formElement.method, formElement.action, true);
+  xhr.send(new FormData (formElement));
+  return false;
 }
