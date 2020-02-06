@@ -162,6 +162,21 @@ function changePics(obj){
   document.getElementById('pic2').src = "img/" + obj.id + "2.jpg"
   document.getElementById('pic3').src = "img/" + obj.id + "3.jpg"
   document.getElementById('pic4').src = "img/" + obj.id + "4.jpg"
+  switch (obj.id){
+    case "sweet":
+      document.getElementById('productDesc').innerHTML = " Combined with soy and garlic flavor, these Microwavable Sweet Chilli Barebque wings are packed with tremendous flavor that has been perfected. These wings can be easily prepared for a meal or snack by just popping them in a microwave!";
+      break;
+    case "honey":
+      document.getElementById('productDesc').innerHTML = " Combined with soy and garlic, these Barbeque wings are fused with island Guam flavor called Finna'denne' and the American classic flavor Honey that create a unique flavor that is guranteed to satisfy anyone's tast buds! Guranteed to satisfy your hunger and taste buds.";
+      break;
+    case "rice":
+      document.getElementById('productDesc').innerHTML = "Para Hita Red Rice brings you closer to a Guam food experience. This well-crafted product goes well with Para Hita's microwaved BBQ wings!";
+      break;
+    case "yam":
+      document.getElementById('productDesc').innerHTML = " These Cinamon sugared Sweet Potato Doughnuts are made to be light, fluffy, most-air pillows that will be a pleasant experience to try. ";
+      break;
+
+  }
 }
 
 
