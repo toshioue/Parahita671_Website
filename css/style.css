@@ -427,7 +427,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 16px;
   overflow: hidden;
-  padding: 10px 22px 10px 15px;
+  padding: 5% 22% 10% 15%;
   position: relative;
   text-decoration: none;
   width: 40%;
@@ -461,8 +461,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-body-overly {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   z-index: 997;
   top: 0;
   left: 0;
@@ -478,6 +478,7 @@ body.mobile-nav-active {
 
 body.mobile-nav-active #mobile-nav {
   left: 0;
+  width: 30%;
 }
 
 body.mobile-nav-active #mobile-nav-toggle {
