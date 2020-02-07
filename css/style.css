@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
   }
   #header #logo img {
-    max-height: 20px;
+    max-height: 25%;
 
 
 
@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6 {
 #mobile-nav {
   position: fixed;
   top: 0;
-  padding-top: 18px;
+  padding-top: 15%;
   bottom: 0;
   z-index: 998;
   background: rgba(52, 59, 64, 0.9);
@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 22px 10px 15px;
   position: relative;
   text-decoration: none;
-  width: 100%;
+  width: 80%;
   display: block;
   outline: none;
 }
