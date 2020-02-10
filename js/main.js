@@ -174,7 +174,7 @@ function changePics(obj){
       document.getElementById('productDesc').innerHTML = "Para Hita Red Rice brings you closer to a Guam food experience. This well-crafted product goes well with Para Hita's microwaved BBQ wings!";
       break;
     case "yam":
-      document.getElementById('productDesc').innerHTML = " These Cinamon sugared Sweet Potato Doughnuts are made to be light, fluffy, most-air pillows that will be a pleasant experience to try. ";
+      document.getElementById('productDesc').innerHTML = " These Cinammon sugared Sweet Potato Doughnuts are made to be light, fluffy, most-air pillows that will be a pleasant experience to try. ";
       break;
 
   }
