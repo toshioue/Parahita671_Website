@@ -510,6 +510,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-title {
   text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
 }
 
 .section-header .section-description {
