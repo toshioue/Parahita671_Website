@@ -508,6 +508,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 5px;
 }
 
+.section-title {
+  text-align: center;
+}
+
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
