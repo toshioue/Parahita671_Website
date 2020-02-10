@@ -9,6 +9,7 @@ jQuery(document).ready(function ($) {
       $('.back-to-top').fadeIn('slow');
       $('#header').addClass('header-fixed');
       $('#logo img').css({'width' : '20%' });
+    //  $('#nav-menu-container').css({'padding' : '25px 0'});
     } else {
       $('#logo img').css({'width' : '80%' });
       $('.back-to-top').fadeOut('slow');
