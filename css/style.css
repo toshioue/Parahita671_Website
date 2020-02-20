@@ -1019,14 +1019,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px 0 5px 0;
 }
 
-#contact .btn {
+#team .btn {
   background-color: #680f1c;
   color: white;
   border: 6px solid #680f1c;
 
 }
 
-#contact .btn:hover {
+#team .btn:hover {
   background-color: black;
 }
 
@@ -1055,7 +1055,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 20px;
 }
 
-#contact .social-links a {
+#team .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #333;
@@ -1069,7 +1069,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
-#contact .social-links a:hover {
+#team .social-links a:hover {
   background: rgba(153, 0, 0);;
   color: #fff;
 }
