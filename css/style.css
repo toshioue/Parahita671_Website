@@ -653,6 +653,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .parent {
   width: 500px;
   height: 300px;
+  padding: 20px;
 }
 
 .child  {
@@ -1161,4 +1162,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team, #portfolio, #facts {
   border-top: 8px solid #680f1c;"
 
+}
+
+.carousel-item {
+  padding: 5px;
 }
