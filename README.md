@@ -1,5 +1,5 @@
-# Parahita 671 Website
+# Parahita 671 Website:
+# Website founded at url: www.parahita671.com  
+### Website was made using a [REGNA Boostrap Template](https://bootstrapmade.com/regna-bootstrap-onepage-template/)  
+### Website created features: altered HTML, CSS, PHP-email-form, and media content
 
-#Website founded at url: www.parahita671.com
-#Website contains an altered Boostrap template from REGNA.
-#Website section: About us, Products, Media Kit, and Contact form.
